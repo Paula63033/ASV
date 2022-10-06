@@ -1,0 +1,13 @@
+screen (terminal paralela)
+sleep 120 
+ctrl+a+d (presionar una letra después de la otra, salir del screen)
+screen -r (volver al screen)
+
+
+
+pwd (obrir terminal a descarregues)
+
+touch a.ldif (ya lo descargaremos)
+sftp root@192.168.101.120:/etc/openldap
+sftp> put a.ldif
+exit
